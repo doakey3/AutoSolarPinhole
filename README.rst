@@ -1,7 +1,7 @@
 ==================
 Auto Solar Pinhole
 ==================
-.. image:: /Textures/Things/Building/Misc/SolarPinholeSpot.png
+.. image:: Textures/Things/Building/Misc/SolarPinholeSpot.png
 
 A quality-of-life mod for Rimworld.
 
@@ -11,11 +11,11 @@ Usage
 =====
 `Architect > Misc > Solar Pinhole Spot`
 
-..image:: /About/preview.png
+.. image:: About/preview.png
 
 Adjust the regularity of recasting the solar pinhole (default = 3.5 days). Note: Solar Pinholes last up to 5 days.
 
-..image:: /Textures/UI/Icons/RefreshThreshold.png
+.. image:: Textures/UI/Icons/RefreshThreshold.png
 
 Requirements
 ============
