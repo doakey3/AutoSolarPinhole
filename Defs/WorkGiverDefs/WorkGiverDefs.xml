@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>SolarPinholeWorkGiver</defName>
+    <giverClass>AutoSolarPinhole.WorkGiver_SolarPinhole</giverClass>
+    <workType>BasicWorker</workType>
+    <priorityInType>0</priorityInType>
+    <scanThings>true</scanThings>
+    <scanCells>false</scanCells>
+    <verb>maintain</verb>
+    <gerund>maintaining solar pinhole spots</gerund>
+  </WorkGiverDef>
+</Defs>
+

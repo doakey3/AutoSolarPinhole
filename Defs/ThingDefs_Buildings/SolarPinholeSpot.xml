@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>SolarPinholeSpot</defName>
+    <label>solar pinhole spot</label>
+    <description>A marker where a psycaster will periodically recast the Solar Pinhole ability.</description>
+    <thingClass>AutoSolarPinhole.Building_SolarPinholeSpot</thingClass>
+
+    <graphicData>
+      <texPath>Things/Building/Misc/SolarPinholeSpot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <useHitPoints>false</useHitPoints>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <clearBuildingArea>false</clearBuildingArea>
+    <canOverlapZones>true</canOverlapZones>
+
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <sowTag></sowTag>
+      <canPlaceOverImpassablePlant>true</canPlaceOverImpassablePlant>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Misc/PartySpot</texPath>
+      </blueprintGraphicData>
+    </building>
+
+    <statBases>
+      <WorkToBuild>0</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+
+    <placeWorkers>
+      <li>AutoSolarPinhole.PlaceWorker_SolarPinhole</li>
+    </placeWorkers>
+
+    <comps>
+      <li Class="AutoSolarPinhole.CompProperties_SolarPinholeSettings"/>
+    </comps>
+
+    <designationCategory>Misc</designationCategory>
+    <tickerType>Normal</tickerType>
+  </ThingDef>
+</Defs>

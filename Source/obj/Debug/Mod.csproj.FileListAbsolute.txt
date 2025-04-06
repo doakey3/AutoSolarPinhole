@@ -1,0 +1,6 @@
+/home/doakey/GOG Games/RimWorld/game/Mods/AutoSolarPinhole/Source/obj/Debug/Mod.csproj.AssemblyReference.cache
+/home/doakey/GOG Games/RimWorld/game/Mods/AutoSolarPinhole/Source/obj/Debug/Mod.csproj.CoreCompileInputs.cache
+/home/doakey/GOG Games/RimWorld/game/Mods/AutoSolarPinhole/1.5/Assemblies/AutoSolarPinhole.dll
+/home/doakey/GOG Games/RimWorld/game/Mods/AutoSolarPinhole/1.5/Assemblies/AutoSolarPinhole.pdb
+/home/doakey/GOG Games/RimWorld/game/Mods/AutoSolarPinhole/Source/obj/Debug/AutoSolarPinhole.dll
+/home/doakey/GOG Games/RimWorld/game/Mods/AutoSolarPinhole/Source/obj/Debug/AutoSolarPinhole.pdb
